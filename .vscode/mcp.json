@@ -1,0 +1,9 @@
+{
+    "servers": {
+        "backstage-mcp": {
+            "type": "stdio",
+            "command": "${workspaceFolder}\\.venv\\Scripts\\python",
+            "args": ["${workspaceFolder}\\main.py"]
+        }
+    }
+}

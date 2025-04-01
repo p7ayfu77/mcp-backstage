@@ -1,0 +1,14 @@
+[project]
+name = "backstage-mcp2"
+version = "0.1.0"
+description = "MCP server that connects to Backstage API and exposes Backstage entities as resources"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "create-mcp-server>=1.0.5",
+    "mcp[cli]>=1.6.0",
+    "httpx>=0.26.0",
+]
+
+[tool.uv.workspace]
+members = ["testi"]
